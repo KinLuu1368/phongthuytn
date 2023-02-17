@@ -1,0 +1,10 @@
+<a href="">
+        <div class="tin-tuc">
+            <div class="hinh">
+                <img src="" alt="hình">
+            </div>
+            <div class="tieude" style="float: left;">
+                <h1>Nhập tiêu đề ở đây</h1>
+            </div>
+        </div> 
+</a>

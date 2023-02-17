@@ -1,0 +1,155 @@
+/* Setting layout*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.container {
+    max-width: 100%;
+}
+
+/* Header */
+.container> header {
+    background-color: pink;
+    height: 150px;
+}
+
+header> img {
+    margin-left: 20px;
+}
+
+.container> header> .contents {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container> header> .link {
+    padding-left: 90%;
+    position: relative;
+    
+}
+
+.hotline {
+    padding: 5px;
+    border: 1px solid rgb(219, 68, 68);
+    background-color: rgb(219, 68, 68);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+.hotline:hover {
+    background-color: brown;
+    color: wheat;
+}
+
+.button-show:hover {
+    background-color: rgb(197, 60, 60);
+}
+
+.button-show> ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px rgb(82, 80, 80);
+} 
+
+.button-show> ul> li> a {
+    text-align: left;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color: rgb(82, 73, 69);
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.button-show:hover>ul {
+    display: block; 
+}
+
+.button-show> ul> li> a:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+
+
+/* Menu */
+.container> nav {
+    float: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu> ul> li  {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+}
+.menu>ul {
+    text-align: center;
+    background-color: rgb(238, 197, 219);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 3px;
+}
+
+
+.menu> ul> li>a{
+    text-decoration: none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:rgb(111, 107, 116);
+    padding:0 10px;
+    line-height:40px;
+}
+
+.menu> ul> li>a:hover {     
+    color: rgb(126, 49, 59);
+}
+
+
+.menu> ul> li> ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px rgb(82, 80, 80);
+}
+
+.menu> ul> li> ul> li> a {
+    text-align: left;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color: rgb(82, 73, 69);
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu> ul> li:hover> ul {
+    display: block;
+}
+
+.menu> ul> li> ul> li> a:hover {
+    background-color: rgb(247, 178, 189);
+    color: white;
+}
